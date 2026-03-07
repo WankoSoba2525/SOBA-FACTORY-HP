@@ -3,6 +3,8 @@ body{
     background-color: rgb(255, 250, 245);
     padding-top: 100px;
     margin:0px;
+
+    overflow-x: hidden;
 }
 
 /* ヘッダー全体 */
@@ -57,7 +59,7 @@ body{
     box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
 
     left: 0;
-    position: flex;
+    position: fixed;
     box-sizing: border-box;
 }
 
@@ -67,13 +69,16 @@ body{
     grid-template-columns: repeat(3,1fr);;
     justify-content: center;
     gap: 30px;
-    padding-top: 40px;
+    padding-top: 100px;
     width: 100%;
     max-width: 870px;
     margin: 0 auto;
+
+    box-sizing: border-box;
 }
 .card{
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     background: rgb(255, 250, 245);
     border-radius: 15px;
     box-shadow: 0px 5px 15px rgba(0,0,0,0.05);

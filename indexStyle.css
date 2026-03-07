@@ -3,6 +3,8 @@ body{
     background-color: rgb(255, 250, 245);
     padding-top: 100px;
     margin:0px;
+
+    overflow-x: hidden;
 }
 
 /* ヘッダー全体 */
