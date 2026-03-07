@@ -58,8 +58,6 @@ body{
     background-color:  rgb(195, 175, 145);
     box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
 
-    left: 0;
-    position: fixed;
     box-sizing: border-box;
 }
 
